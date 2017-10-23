@@ -1,0 +1,4 @@
+Host github.com
+ProxyCommand connect -H 192.2.1.181:808 %h %p
+Port 443
+Hostname ssh.github.com
